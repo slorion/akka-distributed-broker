@@ -1,0 +1,6 @@
+dependencies {
+	compile project(':core')
+
+	compile typesafeConfig
+	compile undertowCore
+}

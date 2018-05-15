@@ -1,0 +1,13 @@
+dependencies {
+	compile project(':core')
+	compile project(':io')
+	compile project(':net')
+
+	compile akkaActor
+	compile akkaCluster
+	compile akkaClusterMetrics
+	compile akkaDistributedData
+	compile akkaRemote
+	compile romixAkkaKryo
+	compile typesafeConfig
+}

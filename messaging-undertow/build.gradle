@@ -1,0 +1,8 @@
+dependencies {
+	compile project(':core')
+	compile project(':messaging')
+	compile project(':web-undertow')
+
+	compile typesafeConfig
+	compile undertowCore
+}

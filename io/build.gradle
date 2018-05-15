@@ -1,0 +1,8 @@
+dependencies {
+	compile project(':core')
+
+	compile jacksonJdk8
+	compile jacksonJSR310
+	compile json4s
+	compile scalaReflect
+}
